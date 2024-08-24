@@ -17,25 +17,30 @@ pip install -r requirements.txt
 
 ## Usage
 
-Count from a single file:
+<b>Count from a single file:</b>
 ```sh
 python3 code-lines-counter -f example.py
 ```
 or:
 
 ```sh
-python3 code-lines-counter -file example.py
+python3 code-lines-counter --file example.py
 ```
 
-Count from a directory:
+<b>Count from multiple files:</b>
 ```sh
-python3 code-lines-counter -d example-dir/
+python3 code-lines-counter -f example.py -f example.js --file example2.txt
 ```
 
-or
+<b>Count from a directory:</b>
+```sh
+python3 code-lines-counter -d example-dir
+```
+
+or:
 
 ```sh
-python3 code-lines-counter -directory example-dir/
+python3 code-lines-counter --directory example-dir
 ```
 
 # License

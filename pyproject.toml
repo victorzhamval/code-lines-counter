@@ -1,7 +1,7 @@
 [project]
 name = "code-lines-counter"
 description = "Code lines counter"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{name = "Victor Zhamval", email = "victorzhamval@gmail.com"}]
 keywords = ["lines counter", "code lines", "code"]
 classifiers = [
