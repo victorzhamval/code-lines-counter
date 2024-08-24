@@ -1,0 +1,5 @@
+.venv
+build
+todo.txt
+code_lines_counter.egg-info
+code-lines-counter/__pycache__

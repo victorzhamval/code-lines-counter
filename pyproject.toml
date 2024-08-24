@@ -1,0 +1,14 @@
+[project]
+name = "code-lines-counter"
+description = "Code lines counter"
+version = "0.0.1"
+authors = [{name = "Victor Zhamval", email = "victorzhamval@gmail.com"}]
+keywords = ["lines counter", "code lines", "code"]
+classifiers = [
+  "Programming Language :: Python"
+]
+dependencies = [
+    "click",
+]
+readme = "README.md"
+license = {text = "MIT License"}
